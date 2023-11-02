@@ -33,7 +33,7 @@ public final class Workarounds {
 
         boolean mustFillAppInfo = false;
         boolean mustFillBaseContext = false;
-        boolean mustFillAppContext = false;
+        boolean mustFillAppContext = true;
 
         if (Build.BRAND.equalsIgnoreCase("meizu")) {
             // Workarounds must be applied for Meizu phones:
